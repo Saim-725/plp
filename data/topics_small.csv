@@ -1,0 +1,25 @@
+id,name,hours,value,difficulty,prereqs
+1,Programming Basics,6,10,1,
+2,Arrays and Strings,5,12,1,1
+3,Recursion,6,14,2,1
+4,Linked Lists,5,11,2,2
+5,Stacks and Queues,4,10,2,4
+6,Sorting Algorithms,8,18,3,2;3
+7,Searching Algorithms,4,12,2,2
+8,Trees,7,16,3,4;3
+9,Heaps and Priority Queues,5,13,3,8
+10,Hashing,5,12,3,2
+11,Graphs,8,20,3,8;5
+12,Graph Traversal BFS DFS,6,16,3,11
+13,Shortest Paths,7,18,4,12
+14,Minimum Spanning Trees,6,15,4,12
+15,Greedy Algorithms,7,17,3,6
+16,Divide and Conquer,7,17,3,3;6
+17,Dynamic Programming,10,24,4,3;15
+18,Knapsack Problems,6,16,4,17
+19,Backtracking,7,15,4,3
+20,Branch and Bound,6,14,5,19;18
+21,Network Flow,8,18,5,13
+22,String Matching,6,14,4,2;10
+23,Number Theory,5,10,4,1
+24,Complexity P and NP,8,16,5,17;19
