@@ -8,9 +8,11 @@ compared against greedy and backtracking / branch and bound.
     make          # builds ./plp
     make test     # runs unit tests
     ./plp data/topics_small.csv
+    (menu: 4 = sort, 5 = binary search, 6 = benchmark)
 
 ## CSV format
     id,name,hours,value,difficulty,prereqs     (prereqs separated by ';')
 
 ## Progress
 - [x] Day 1: topic model, CSV loader with validation, topological order, CLI, tests
+- [x] Day 2: metrics + timer, merge sort, quick sort, binary search (loop and recursive), sort benchmark
